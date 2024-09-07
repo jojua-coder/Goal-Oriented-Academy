@@ -62,15 +62,3 @@ print(float*string)
 
 
 
-name=input("enter youre name: ")
-surname=input("enter youre surname: ")
-age=input("enter youre age: ")
-height=input("enter youre height: ")
-favorite_sports=input("enter youre favorite sports: ")
-favorite_drink=input("enter youre favorite drinks: ")
-my_mother=input("enter youre mother name: ")
-my_ded=input("enter youre ded nmae: ")
-my_sister=input("enter youre sisters name: ")
-my_brother=input("emter youre brothers name: ")
-print=type(name),type(surname),type(age),type(favorite_sports),type(my_mother),type(my_ded),type(my_sister),type(my_brother)
-

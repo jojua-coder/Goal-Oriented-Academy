@@ -14,15 +14,10 @@ print(type(name),type(surname),type(age),type(height),type(favorite_sports),type
 
 
 #2 შემოიტანეთ 3 input , 3-ვე განსხავებული ტიპის მონაცემები და მოგვიანებით type ის დახმარებით გაიგეთ მათი მონაცემები.
-age_input = input("Enter your age: ") 
-height_input = input("Enter your height: ") 
-name_input = input("Enter your name: ") 
-
-age = 14     
-height = 1.63  
-name = "sandro" 
-
-print(type(age), type(height), type(name)) 
+age_input =int(input("enter youre age: "))
+height_input =float(input("enter youre height: "))
+name_input = str(input("enter youre name: "))
+print(type(age_input),type(height_input),type(name_input))
 
 
 #3 კონვერტაცია გაუკეთეთ მთელ რიცხვს 77 სტრინგად და დაბეჭდეთ შედეგი და მისი ტიპი.
